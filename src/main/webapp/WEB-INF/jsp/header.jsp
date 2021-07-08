@@ -2,11 +2,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <html>
-<title>Users</title>
+<title>Tours</title>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="home">HOME</a
+        <a class="navbar-brand" href="home">HOME</a>
         <a class="navbar-brand" href="tour">TOURS</a>
         <a class="navbar-brand" href="promotion">PROMOTIONS</a>
         <a class="navbar-brand" href="registration">REGISTRATIONS</a>

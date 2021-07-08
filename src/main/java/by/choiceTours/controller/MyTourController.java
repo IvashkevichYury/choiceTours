@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-@RequestMapping("/user/tour")
+@RequestMapping
 @RequiredArgsConstructor
 public class MyTourController {
 
@@ -27,9 +27,21 @@ public class MyTourController {
         return model;
     }
 
-    @GetMapping("/all")
+    @GetMapping("/tour")
     public ModelAndView getAllTours(ModelAndView model) {
         model.setViewName("tour");
+        return model;
+    }
+
+    @GetMapping("/promotion")
+    public ModelAndView getAllAction(ModelAndView model) {
+        model.setViewName("promotion");
+        return model;
+    }
+
+    @GetMapping("/registration")
+    public ModelAndView getRegisrtation(ModelAndView model) {
+        model.setViewName("registration");
         return model;
     }
 }
